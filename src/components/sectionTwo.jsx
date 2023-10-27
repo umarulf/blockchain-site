@@ -20,9 +20,9 @@ const SectionTwo = () => {
         <img class="hidden lg:block absolute -z-[1000] left-0 bottom-[-100px] w-full object-cover" src={bg2}
             alt=""/>
         <div
-            class="container grid grid-cols-1 grid-rows-2 gap-10 md:grid-cols-2 md:grid-rows-1 md:gap-0 items-center justify-items-center">
+            class=" grid grid-cols-1 grid-rows-2 gap-10 md:grid-cols-2 md:grid-rows-1 md:gap-0 items-center justify-items-center">
             <div
-                class="group  bg-slate-100 p-8 flex flex-col items-center justify-between gap-0 h-[490px] w-[75%] overflow-hidden rounded-2xl shadow-md transition-all duration-300">
+                class=" bg-slate-100 p-8 flex flex-col items-center justify-between gap-0 h-[490px] w-[75%] overflow-hidden rounded-2xl shadow-md transition-all duration-300">
                 <div>
                     <h2 class="font-bold text-2xl">For <span class="underline text-green">Creators</span></h2>
                     <p class="my-4 xt-lightBlack text-xs opacity-50">Creators can gain independence through a
@@ -38,7 +38,7 @@ const SectionTwo = () => {
                 </div>
             </div>
             <div
-                class="group  bg-slate-100 p-8 flex flex-col items-center justify-between gap-0 h-[490px] w-[75%] overflow-hidden rounded-2xl shadow-md transition-all duration-300">
+                class=" bg-slate-100 p-8 flex flex-col items-center justify-between gap-0 h-[490px] w-[75%] overflow-hidden rounded-2xl shadow-md transition-all duration-300">
                 <div>
                     <h2 class="font-bold text-2xl">For <span class="underline text-blue">Hodlers</span></h2>
                     <p class="my-4 xt-lightBlack text-xs opacity-50">Holding social tokens allows the individual to gain
@@ -83,6 +83,10 @@ const SectionTwo = () => {
      </section>
      
      {/* SectionTwo ends */}
+
+     
+
+     
     </>
   );
 };
