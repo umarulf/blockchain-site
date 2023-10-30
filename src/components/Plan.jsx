@@ -6,10 +6,10 @@ import plane from "../imgs/areplane.png";
 
 
  
-const SectionThree = () => {
+const Plan = () => {
   return (
     <>
-     {/* SectionThree starts */}
+
      
      <section class="mt-20 py-20 relative md:mb-10">
         <img class="absolute -z-[1000] right-0 top-0 w-44" src={plane} alt=""/>
@@ -93,7 +93,7 @@ const SectionThree = () => {
   );
 };
  
-export default SectionThree;
+export default Plan;
 
 
 

@@ -6,7 +6,7 @@ import logo from "../imgs/logo.png"
 const Header = () => {
   return (
     <>
-     {/* header starts */}
+     
      <img class="absolute -z-10 right-0 top-0" src={bg} alt=""/>
     <header class="flex items-center justify-center h-[84px]">
         <div class="container mx-auto flex justify-between ">

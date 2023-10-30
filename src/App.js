@@ -1,9 +1,11 @@
 
-import Header from "./components/header"
-import SectionOne from "./components/sectionOne"
-import SectionTwo from "./components/sectionTwo"
-import SectionThree from "./components/SectionThree";
-import SectionFour from "./components/SectionFour";
+import Header from "./components/Header"
+import Mission from "./components/Mission"
+import Model from "./components/Model"
+import Plan from "./components/Plan";
+import Future from "./components/Future";
+import Sale from "./components/Sale";
+import Footer from "./components/Footer";
 
 import './App.css';
 
@@ -14,21 +16,31 @@ function App() {
 
     <Header/>
 
-    {/* sectionOne starts */}
-    <SectionOne/>
-    {/* sectionOne ends  */}
+    {/* mission starts */}
+    <Mission/>
+    {/* mission ends  */}
 
-    {/* sectionTwo starts */}
-    <SectionTwo/>
-    {/* sectionTwo ends */}
+    {/* model starts */}
+    <Model/>
+    {/* model ends */}
 
-    {/* sectionThree starts */}
-    <SectionThree/>
-    {/* sectionThree ends */}
+    {/* plan starts */}
+    <Plan/>
+    {/* plan ends */}
 
-    {/* sectionThree starts */}
-    <SectionFour/>
-    {/* sectionThree ends */}
+    {/* future starts */}
+    <Future/>
+    {/* future ends */}
+
+     {/* sale starts */}
+     <Sale/>
+
+     {/* sale ends */}
+
+     {/* footer starts */}
+     <Footer/>
+
+     {/* footer ends */}
 
  
 

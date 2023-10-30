@@ -11,10 +11,10 @@ import bg2 from "../imgs/bg-2.png";
 
 
  
-const SectionTwo = () => {
+const Model = () => {
   return (
     <>
-     {/* SectionTwo starts */}
+     
      
      <section class="text-center relative grid h-fit gap-20">
         <img class="hidden lg:block absolute -z-[1000] left-0 bottom-[-100px] w-full object-cover" src={bg2}
@@ -22,9 +22,9 @@ const SectionTwo = () => {
         <div
             class=" grid grid-cols-1 grid-rows-2 gap-10 md:grid-cols-2 md:grid-rows-1 md:gap-0 items-center justify-items-center">
             <div
-                class=" bg-slate-100 p-8 flex flex-col items-center justify-between gap-0 h-[490px] w-[75%] overflow-hidden rounded-2xl shadow-md transition-all duration-300">
+                class=" bg-slate-100 p-8 flex flex-col items-center justify-between gap-0 h-[490px] w-[60%] overflow-hidden rounded-2xl shadow-md transition-all duration-300">
                 <div>
-                    <h2 class="font-bold text-2xl">For <span class="underline text-green">Creators</span></h2>
+                    <h2 class="font-bold text-2xl">For <span class="underline text-green-500">Creators</span></h2>
                     <p class="my-4 xt-lightBlack text-xs opacity-50">Creators can gain independence through a
                         decentralised digital currency system that
                         is
@@ -38,9 +38,9 @@ const SectionTwo = () => {
                 </div>
             </div>
             <div
-                class=" bg-slate-100 p-8 flex flex-col items-center justify-between gap-0 h-[490px] w-[75%] overflow-hidden rounded-2xl shadow-md transition-all duration-300">
+                class=" bg-slate-100 p-8 flex flex-col items-center justify-between gap-0 h-[490px] w-[60%] overflow-hidden rounded-2xl shadow-md transition-all duration-300">
                 <div>
-                    <h2 class="font-bold text-2xl">For <span class="underline text-blue">Hodlers</span></h2>
+                    <h2 class="font-bold text-2xl">For <span class="underline text-blue-500">Hodlers</span></h2>
                     <p class="my-4 xt-lightBlack text-xs opacity-50">Holding social tokens allows the individual to gain
                         access to benefits including
                         unreleased
@@ -91,7 +91,7 @@ const SectionTwo = () => {
   );
 };
  
-export default SectionTwo;
+export default Model;
 
 
 

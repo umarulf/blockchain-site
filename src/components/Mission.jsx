@@ -3,10 +3,10 @@ import React from "react";
 import img1 from "../imgs/1.png";
 
  
-const SectionOne = () => {
+const Mission = () => {
   return (
     <>
-     {/* SectionOne starts */}
+   
      <section class="py-10 h-[calc(100vh_-_84px)] flex items-center justify-center mb-10">
         <div
             class="container flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-5 md:gap-10">
@@ -24,7 +24,7 @@ const SectionOne = () => {
                     href="#">Learn More</a>
             </div>
             <div>
-                <img src={img1} alt=""/>
+                <img className="w-[770px]" src={img1} alt=""/>
             </div>
         </div>
      </section>
@@ -34,4 +34,4 @@ const SectionOne = () => {
   );
 };
  
-export default SectionOne;
+export default Mission;
