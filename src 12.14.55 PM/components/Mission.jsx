@@ -15,7 +15,7 @@ const Mission = () => {
                 <h2 class="font-bold text-2xl mb-5 leading-relaxed">
                     Reimagining social media through the power of the blockchain.
                 </h2>
-                <p class="text-lightBlack text-xs mb-5 md:mb-7 opacity-50 md:text-xl">
+                <p class="text-lightBlack text-xs mb-5 md:mb-7 opacity-50 md:text-xl font-sans">
                     We are creating social media 3.0 with influencers, celebrities and creators being able to launch
                     their own digital currency by simply creating a profile with media content posted as Non fungible
                     Tokens that can be owned and traded on the Tokners network
